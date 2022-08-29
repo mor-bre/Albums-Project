@@ -1,0 +1,76 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(74, 110, 143, .7);
+}
+
+.photo-modal {
+    position: absolute;
+    margin: .5rem;
+    padding: .2rem;
+    background-color: rgb(164, 205, 242);
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.metadata-container {
+    display: flex;
+    height: 50%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem .5rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.metadata-container p {
+    color: rgb(74, 110, 143);
+}
+
+.photo-modal button {
+    all: unset;
+    position: absolute;
+    width: 1rem;
+    top: .1rem;
+    right: .1rem;
+    color: #fff;
+}
+
+.photo-modal button:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.photo-modal h2 {
+    color: rgb(74, 110, 143);
+}
+
+.modal-img-container {
+    background-color: rgb(78, 124, 167);
+    padding: .5rem;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.modal-img-container img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5%;
+}

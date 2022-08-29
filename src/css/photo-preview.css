@@ -1,0 +1,56 @@
+.photo-preview {
+    margin: .5rem;
+    padding: .2rem;
+    background-color: rgb(37, 72, 100);
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-container {
+    background-color: rgb(52, 89, 121);
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 25%;
+    position: relative;
+}
+
+.photo-preview img:hover {
+    cursor: pointer;
+}
+
+.metadata {
+    height: 100%;
+    padding: 1rem .5rem;
+}
+
+.metadata h3 {
+    text-align: center;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.metadata p {
+    text-align: center;
+}
+
+.metadata p {
+    color: rgb(74, 110, 143);
+}
+
+.url-container {
+    padding: .2rem;
+    background-color: rgb(24, 51, 70);
+    color: rgb(56, 87, 115);
+    font-size: .7rem;
+}

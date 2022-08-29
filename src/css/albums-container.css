@@ -1,0 +1,28 @@
+.albums-container {
+    margin: 0.25rem 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.albums-container .filters {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+h1 {
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.loader {
+    margin: auto;
+}
+
+.photos-list-container p {
+    color: #fff;
+    margin-left: 1rem;
+}
